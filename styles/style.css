@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(216, 207, 194);
+}
+h1 {
+    text-align: center;
+    font-style: serif;
+    color: rgb(80, 80, 80) ;
+    text-decoration-line: overline;
+} 
+h1:hover {
+    font-size: 40px;
+}   
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table th {
+    text-align: center;
+}
+table td,
+table th {
+    border: 15px solid rgb(216, 207, 194)
+}
+thead tr {
+    background-color:rgb(158, 158, 158)
+}
+tbody td {
+    color:rgb(73, 73, 73) ;
+}
+a {
+    text-decoration: none;
+    color: cadetblue;
+}
+img {
+    margin: 50px;
+    border: 2px solid rgb(158, 158, 158)
+}
+img:hover {
+    border: 5px solid rgb(112, 112, 112) ;
+}
+a {
+    margin-left: 630px;
+}
+a:hover {
+    color: rgb(60, 114, 136);
+    text-decoration-line: underline;
+    font-size: large;
+    
+}
+p {
+    color: rgb(102, 101, 101);
+}
+
+h3,
+h2 {
+    font-style: italic;
+}
