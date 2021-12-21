@@ -15,12 +15,6 @@ header {
     width: 150px;
     height: 90px;
 }
-.links {
-    width: 70%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
 a {
     text-decoration: none;
     color: rgb(102, 101, 101);
@@ -30,12 +24,15 @@ a:hover {
     background-color: rgb(182, 56, 56);
     color: white;
 }
+.links {
+    display: flex;
+    gap: 15px;
+}
 .links a {
     display: inline-block;
     padding: 10px 10px;
     border: 2px solid rgb(182, 56, 56);
     border-radius: 20px;
-    margin: 20px;
 }
 .second {
     display: flex;
