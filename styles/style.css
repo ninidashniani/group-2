@@ -1,156 +1,60 @@
-body{
-    background-color: #f2f2f2;
-    margin: 0%;
+body {
+    background-color: snow;
 }
-header {
+.header-container {
     width: 100%;
-    height: 90px;
-    background-color: white;
-}
-.first {
-    display: flex;
-    justify-content: space-between;
-}
-.pirveli {
-    width: 150px;
-    height: 90px;
-}
-a {
-    text-decoration: none;
-    color: rgb(102, 101, 101);
-    margin: auto;
-}
-a:hover {
-    background-color: rgb(182, 56, 56);
-    color: white;
-}
-.links {
-    display: flex;
-    gap: 15px;
-}
-.links a {
-    display: inline-block;
-    padding: 10px 10px;
-    border: 2px solid rgb(182, 56, 56);
-    border-radius: 20px;
-}
-.second { position: sticky;
     display: flex;
     justify-content: center;
-    height: 30px;
-    width: 100%;
-    background-color: snow;
-    z-index: 1;
-}
-.title-sticky {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 2px;
-    position: sticky;
-    display: flex;
-    width: 100%;
-    background-color: #f2f2f2;
-    z-index: 1;
+    height: 100px;
+    background-color: darkblue;
+    margin: 0px 0px 10px;
+    padding: 0px;
+    
 }
 h1 {
-    font-size: smaller;
-    font-weight: bold;
-    color: rgb(182, 56, 56);
-}
-.container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 350px;
-    gap: 20px;
-}
-.third.container {
-    width: 900px;
-    margin: auto;
-} 
-.secondhalf {
-    width: 60%;
-    align-items: flex-start;
-    height: 300px;
-}
-.productimg {
     margin: 0px;
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    display: block;
-}
-h2 {
     font-weight: bolder;
-    font-size: larger;
-    color: rgb(182, 56, 56) ;
+    color: white;
 }
-p {
-    color: grey;
-    font-weight: bolder;
-}
-.card {
-    width: 25%;
-}
-.heart {
-    width: 40px;
-    height: 30px;
-    position: absolute;
-    top: 20px;
-    right: 10px;
-}
-.bag {
-    width: 30px;
-    height: 25px;
-}
-.d-inline-flex {
-    display: flex;
-}
-.buy-btn {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    display: inline-flex;
-    gap: 2px;
-    align-items: center;
-    background-color: limegreen;
-    padding: 5px 5px;
-    border-radius: 20px;
-}
-.img-container {
-    position: relative;
-    width: 100%;
-}
-.whole-cont {
-    width: 900px;
+.body-container {
     margin: auto;
+    width: 550px;
+    justify-content: center;
+    align-items: center;
     display: flex;
+    height: 750px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    gap: 15px;
     flex-direction: column;
-    padding: 20px;
     background-color: white;
 }
-.container1 {
-    display: flex;
-    flex-direction: row;
+.signup {
+    margin-bottom: 15px;
 }
-.animation  {
-    width: 900px;
-    margin: auto;
-    background-color: darkblue;
-    height: 5px;
-    position: relative;
-    animation: mymove 3s infinite ;
+.signup label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: larger;
+    font-weight: bolder;
 }
-@keyframes mymove {
-    0% {width: 100%;}
-    100% {width: 0%;}
+.input,
+select {
+    height: 30px;
+    border-radius: 4px;
+    padding: 5px;
+    border: 1px solid;
+    font-size: larger;
+    width: 250px;
+    box-sizing: border-box;
 }
-.font {
-    color: rgb(182, 56, 56);
-    font-family: 'Roboto Condensed', sans-serif;
-    margin: 1px;
+.input :focus {
+    border-color: black;
+    outline: none;
 }
-.maintitle {
-    font-size: medium;
+h2 {
+    color: grey;
+    font-size: 30px;
+    font-weight: bolder;
 }
