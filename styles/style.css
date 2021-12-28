@@ -1,5 +1,5 @@
 body {
-    background-color: snow;
+    background-color:#f3f3f3;
 }
 .header-container {
     width: 100%;
@@ -23,7 +23,7 @@ h1 {
     justify-content: center;
     align-items: center;
     display: flex;
-    height: 750px;
+    height: 850px;
     border: 1px solid grey;
     border-radius: 5px;
     gap: 15px;
@@ -57,4 +57,18 @@ h2 {
     color: grey;
     font-size: 30px;
     font-weight: bolder;
+}
+.btn {
+    background-color: rgb(8, 165, 8);
+    font-size: 10px;
+    font-weight: bolder;
+    color: honeydew;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width:100px;
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
