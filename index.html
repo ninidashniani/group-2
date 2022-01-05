@@ -11,47 +11,51 @@
         </div>
     </header>
     <div class="body-container">
-        <div>
+        <div id="title" class="title" >
             <h2>Sign Up</h2>
         </div>
-        <div class="signup">
-            <label for="firstName">სახელი</label>
-            <input class="input" id="firstName" type="text" placeholder="თქვენი სახელი" >
+        <div class="fullname">
+            <div class="signup">
+                <label for="firstName">სახელი</label>
+                <input class="input" id="firstName" type="text" placeholder="თქვენი სახელი" >
+            </div>
+            <div class="signup">
+                <label for="lastName">გვარი</label>
+                <input class="input" id="lastName" type="text" placeholder="თქვენი გვარი" >
+            </div>
         </div>
-        <div class="signup">
-            <label for="lastName">გვარი</label>
-            <input class="input" id="lastName" type="text" placeholder="თქვენი გვარი" >
-        </div>
-        <div class="signup">
-            <label for="birthdate">დაბადების თარიღი</label>
-            <input class="input date" id="birthdate" type="datetime-local" placeholder="თარიღი" >
-        </div>
-        <div class="signup">
-            <label for="birthplace">დაბადების ადგილი</label>
-            <input class="input" id="birthplace" type="search" placeholder="ლოკაცია" >
-        </div>
-        <div class="signup">
-            <label for="pass">პაროლი</label>
-            <input class="input" id="pass" type="password" placeholder="პაროლი" >
-        </div>
-        <div class="save">
-            <input id="save" type="checkbox">
-            <label for="save">დამახსოვრება</label>
-        </div>
-        <div class="signup">
-            <label for="gender">სქესი</label>
-            <select id="gender">
-                <option value="">მდედრობითი</option>
-                <option value="">მამრობითი</option>
-            </select>
-        </div>
-        <div class="save">
-            <input id="save" type="radio">
-            <label for="save">ვეთანხმები მოთხოვნებს</label>
-        </div>
-        <div class="save">
-            <label  for="textarea"></label>
-            <textarea class="input" placeholder="ინფორმაცია" ></textarea>
+        <div class="others" >
+            <div class="signup1">
+                <label for="birthdate">დაბადების თარიღი</label>
+                <input class="input1 date" id="birthdate" type="datetime-local" placeholder="თარიღი" >
+            </div>
+            <div class="signup1">
+                <label for="birthplace">დაბადების ადგილი</label>
+                <input class="input1" id="birthplace" type="search" placeholder="ლოკაცია" >
+            </div>
+            <div class="signup1">
+                <label for="pass">პაროლი</label>
+                <input class="input1" id="pass" type="password" placeholder="პაროლი" >
+            </div>
+            <div class="signup1 save">
+                <input  id="save" type="checkbox">
+                <label for="save">დამახსოვრება</label>
+            </div>
+            <div class="signup1">
+                <label for="gender">სქესი</label>
+                <select id="gender" >
+                    <option value="">მდედრობითი</option>
+                    <option value="">მამრობითი</option>
+                </select>
+            </div>
+            <div class="signup1 save">
+                <input id="agree" type="radio">
+                <label for="agree">ვეთანხმები მოთხოვნებს</label>
+            </div>
+            <div class="signup1">
+                <label  for="textarea"></label>
+                <textarea class="input1" placeholder="ინფორმაცია" ></textarea>
+            </div>
         </div>
         <div class="btn">
             <h1 class="last">sign up</h1>
