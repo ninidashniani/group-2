@@ -1,66 +1,61 @@
 <!DOCTYPE html>
-<html lang="ka">
+<html lang="en">
 <head>
-    <title>Registration</title>
+    <title>VScode</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
     <header>
-        <div class="header-container">
-            <h1>ჰოროსკოპი</h1>
+        <div class="container">
+            <nav>
+                <a href="">menu item</a>
+                <a href="">menu item</a>
+                <a href="">menu item</a>
+                <a href="">menu item</a>
+            </nav>
+            <div class="download-block">
+                <div class="search">
+                    <button class="search-btn">
+                        <img src="./assets/icons/search.png">
+                    </button>
+                    <input type="text">
+                </div>
+                <button class="download-btn">
+                    <img src="./assets/icons/icon.png">
+                    <span>download</span>
+                </button>
+            </div>
         </div>
     </header>
-    <div class="body-container">
-        <div id="title" class="title" >
-            <h2>Sign Up</h2>
-        </div>
-        <div class="fullname">
-            <div class="signup">
-                <label for="firstName">სახელი</label>
-                <input class="input" id="firstName" type="text" placeholder="თქვენი სახელი" >
-            </div>
-            <div class="signup">
-                <label for="lastName">გვარი</label>
-                <input class="input" id="lastName" type="text" placeholder="თქვენი გვარი" >
-            </div>
-        </div>
-        <div class="others" >
-            <div class="signup1">
-                <label for="birthdate">დაბადების თარიღი</label>
-                <input class="input1 date" id="birthdate" type="datetime-local" placeholder="თარიღი" >
-            </div>
-            <div class="signup1">
-                <label for="birthplace">დაბადების ადგილი</label>
-                <input class="input1" id="birthplace" type="search" placeholder="ლოკაცია" >
-            </div>
-            <div class="signup1">
-                <label for="pass">პაროლი</label>
-                <input class="input1" id="pass" type="password" placeholder="პაროლი" >
-            </div>
-            <div class="signup1 save">
-                <input  id="save" type="checkbox">
-                <label for="save">დამახსოვრება</label>
-            </div>
-            <div class="signup1">
-                <label for="gender">სქესი</label>
-                <select id="gender" >
-                    <option value="">მდედრობითი</option>
-                    <option value="">მამრობითი</option>
-                </select>
-            </div>
-            <div class="signup1 save">
-                <input id="agree" type="radio">
-                <label for="agree">ვეთანხმები მოთხოვნებს</label>
-            </div>
-            <div class="signup1">
-                <label  for="textarea"></label>
-                <textarea class="input1" placeholder="ინფორმაცია" ></textarea>
-            </div>
-        </div>
-        <div class="btn">
-            <h1 class="last">sign up</h1>
+    <div class="notification">
+        <div class="container">
+            <p>
+                <a href="#">link</a>
+                notification
+            </p>
         </div>
     </div>
-    
+
+    <section class="welcome-section">
+        <div class="container">
+            <div class="text-block">
+                <h1> 
+                    <span> Code editing.</span>
+                     <span> Redefined.</span> 
+                </h1>
+                <p>Free. Built on open source. Runs everywhere.</p>
+                <a href="" class="download-btn">
+                    <div>
+                        <h6>Download for windows</h6>
+                        <small>Stable build</small>
+                    </div>
+                    <div>
+                        <img src="./assets/icons/arrow-down-sign-to-navigate.png">
+                    </div>
+                </a>
+            </div>
+            <img class="welcome-img" src="./assets/img/vscode.png">
+        </div>
+    </section>
 </body>
 </html>

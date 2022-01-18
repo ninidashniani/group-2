@@ -1,119 +1,129 @@
-body {
-    background-color:#f3f3f3;
-    margin: 0%;
-}
 * {
     box-sizing: border-box;
+    text-decoration: none;
 }
-.header-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    background-color: darkblue;
-    margin: 0px 0px 10px;
-    padding: 0px;
-    margin-bottom: 20px;
+
+body {
+    margin: 0%;
 }
-h1 {
-    margin: 0px;
-    font-weight: bolder;
+.container {
+    width: 950px;
+    margin-inline: auto;
+}
+header {
+    height: 60px;
+    background-color: rgb(66, 65, 65);
+}
+header a {
     color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 5px 15px;
 }
-.body-container {
-    margin: auto;
-    width: 550px;
-    justify-content: center;
-    align-items: center;
+header .container {
     display: flex;
-    height: 800px;
-    border: 1px solid grey;
-    border-radius: 5px;
-    gap: 15px;
-    flex-direction: column;
-    background-color: white;
+    justify-content: space-between;
 }
-.signup {
-    margin-bottom: 15px;
+header nav {
+    display: flex;
+    align-items: center;
+    margin-left: -15px;
 }
-.signup label {
-    display: block;
-    margin-bottom: 5px;
-    font-size: larger;
-    font-weight: bolder;
+.download-block {
+    display: flex;
 }
-.input,
-select {
-    height: 30px;
-    border-radius: 4px;
-    padding: 5px;
-    border: 1px solid;
-    font-size: larger;
-    box-sizing: border-box;
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
 }
-.input :focus {
-    border-color: black;
-    outline: none;
-}
-h2 {
-    color: grey;
-    font-size: 30px;
-    font-weight: bolder;
-}
-.btn {
-    background-color: rgb(8, 165, 8);
-    font-size: 10px;
-    font-weight: bolder;
-    color: honeydew;
-    border-radius: 5px;
-    border: 1px solid gray;
-    width:100px;
-    height: 30px;
-    padding: 5px;
+.search-btn {
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 15px;
+    background: transparent;
+    border: 0;
 }
-.fullname {
+.download-block input {
+    height: 60px;
+    width: 200px;
+    padding-left: 60px;
+    padding-right: 15px;
+    background-color: grey;
+    border: 0;
+}
+header .download-btn {
+    height: 60px;
     display: flex;
-    flex-direction: row;
-    gap: 10px;
+    align-items: center;
+    border: 0;
+    background-color: yellowgreen;
 }
-.others {
-    width: 100%;
+header img {
+    height: 20px;
+    width: 20px;
 }
-.signup1{
-    padding: 5px 20px;
+.notification {
+    background-color: rgb(90, 89, 89);
 }
-.signup1 label {
+.notification p {
+    padding-block: 5px;
+    margin: 0%;
+    text-align: center;
+}
+/* welcome section */
+.welcome-section {
+    background-color: black;
+    padding-block: 30px;
+}
+.welcome-section .container {
+    display: flex;
+    width: 800px;
+    height: 400px;
+}
+.welcome-section .welcome-img {
+    width: 70%;
+    height: auto;
+    margin-block: 15px;
+}
+.welcome-section .text-block {
+    width: 30%;
+    color: white;
+    text-align: center;
+    padding-right: 15px;
+    margin-top: 40px;
+}
+.text-block h1 span {
     display: block;
 }
-.input1 {
-    height: 30px;
-    border-radius: 4px;
-    padding: 5px;
-    border: 1px solid;
-    font-size: larger;
-    width: 100%;
-    box-sizing: border-box;
+.text-block h1 span:last-child {
+    font-size: 40px;
 }
-.others.signup1 {
-    box-sizing: border-box;
-}
-.save {
+.text-block .download-btn {
     display: flex;
-    flex-direction: row;
+    background-color: yellowgreen;
+    color: black;
+    height: 55px;
 }
-.others label {
-    display: block;
-    margin-bottom: 5px;
-    font-size: larger;
-    font-weight: bolder;
+.text-block .download-btn div:first-child {
+    width: 70%;
+    padding: 10px;
 }
-#title {
+.text-block .download-btn h6 {
+    margin: 0%;
+    font-weight: bold;
+}
+.text-block .download-btn div:last-child {
+    width: 30%;
+    height: 100%;
+    border-left: 2px solid black;
     display: flex;
-    width: 100%;
-    padding: 0px 20px;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+}
+.text-block .download-btn img {
+    width: 20px;
+    height: 20px;
 }
