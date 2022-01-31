@@ -51,6 +51,7 @@ header .header-container {
 .introduction p {
     text-align: center;
     width: 550px;
+    font-family: system-ui;
 }
 .getstarted-btn {
     border: 1px solid #fa50bd;
@@ -260,7 +261,5 @@ margin-inline-end: 150px;
     margin-block-start: 50px;
     gap: 20px;
 }
-.footer-container .icons svg:focus {
-    fill: blue;
-}
+
 
